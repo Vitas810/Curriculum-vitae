@@ -306,7 +306,7 @@ h2 {
   }
   .header-nav ul {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -319,11 +319,15 @@ h2 {
   }
 }
 @media only screen and (max-width: 600px) {
+  .skils {
+    flex-direction: column;
+    align-items: center;
+  }
   .skils-items {
-    width: 70%;
+    width: 80%;
   }
   .skils-item {
-    width: 50%;
+    width: 45%;
   }
   .Education-text {
     text-align: right;
@@ -331,6 +335,9 @@ h2 {
   .portfolio {
     flex-direction: column;
     align-items: center;
+  }
+  .portfolio img {
+    width: 330px;
   }
   .career-text {
     text-align: right;
