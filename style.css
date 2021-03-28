@@ -302,7 +302,7 @@ h2 {
     width: 60%;
   }
   .header-logo {
-    margin-right: 15px;
+    margin-right: 10px;
   }
   .header-nav ul {
     flex-wrap: wrap;
@@ -315,7 +315,7 @@ h2 {
     align-items: center;
   }
   .about-me-text {
-    width: 80%;
+    width: 90%;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -338,8 +338,12 @@ h2 {
   }
   .portfolio img {
     width: 330px;
+    margin-left: -20px;
   }
   .career-text {
     text-align: right;
+  }
+  .header-nav a {
+    font-size: 14px;
   }
 }
